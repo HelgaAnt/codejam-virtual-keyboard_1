@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+pre {
+  margin: 0;
+  padding: 0;
+  padding-left: 3px;
+  height: 50px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+span {
+  line-height: 2.5em;
+}
+
+.wrapper {
+  width: 1020px;
+  font-family: Lato, sans-serif;
+  margin: 0 auto;
+  /*animation: slide 5s ease 0s infinite;*/
+}
+
+textarea {
+  width: 90%;
+  height: 160px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.keyboard {
+  user-select: none;
+  width: 90%;
+  height: 300px;
+  display: block;
+  padding: 37px 30px 30px 37px;
+  /*margin-top: 15px, 30px;*/
+  /*padding: 10px, 30px;*/
+  border-radius: 10px;
+  background-color: rgb(46, 77, 77);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*animation: slide 5s ease 0s infinite;*/
+}
+
+.key {
+  /*width: 45px;*/
+  height: 50px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  padding: 0 0;
+  /*display: flex;*/
+  justify-content: center;
+  font-size: 1.3em;
+  align-items: center;
+  text-align: center;
+ 
+  border-radius: 6px;
+  background-color: #ffffff66;
+  color: rgb(255, 255, 255);
+  /*user-select: none;*/
+  
+}
+
+.key-special {
+  background-color: #89abad66;
+  color: rgb(255, 255, 255);
+  
+}
+
+.key:hover {
+  /*color: #59f608; /* #a7f046;*/
+  background-color: #3adbbd; /* #32d975; /* #59f608; /* #a7f046;*/
+  color: black;
+  cursor: pointer;
+}
+ 
+.active {
+  color: black;
+  background-color: #3adbbd;
+}
+
+.active-special {
+  color: black;
+  background-color: #107a67;
+}
+
+.info{
+  color: black;
+  margin-top: 10px;  
+  margin-left: 20px;  
+}
