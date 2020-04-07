@@ -197,10 +197,6 @@ function onClickUp(currKeyId, event) {
         isLang = (isLang === 'en') ? 'ru' : 'en';
         localStorage.setItem('Lang', isLang);
         ChangeKeys();
-        // for (let i = 0; i < KEYS.length; i++) {
-        //     if ( isLang === 'en' )  { document.getElementById(KEYS[i].id).innerHTML = `${KEYS[i].valEn}` }
-        //     else { document.getElementById(KEYS[i].id).innerHTML = `${KEYS[i].valRu}`};
-        // }
     };
 
         if (isCapsLock) {
@@ -209,16 +205,6 @@ function onClickUp(currKeyId, event) {
         if ( currKeyId === 'CapsLock' ) {
             if (isCapsLock) {
                 document.getElementById('CapsLock').classList.add('active-special');
-               /* for (let i = 0; i < KEYS.length; i++) {
-                    // document.getElementById(KEYS[i].id).innerText = KEYS[i].valShEn;
-                    if ( KEYS[i].type === 'normal' )  document.getElementById(KEYS[i].id).innerHTML = `${KEYS[i].valShEn}`;
-                }*/
-            }    
-            else {
-                /*for (let i = 0; i < KEYS.length; i++) {
-                    // document.getElementById(KEYS[i].id).innerText = KEYS[i].valEn;
-                    if ( KEYS[i].type === 'normal' ) document.getElementById(KEYS[i].id).innerHTML = `${KEYS[i].valEn}`;
-                } */   
             }    
         }
         if (currKeyId === 'ShiftLeft' || currKeyId === 'ShiftRight') {
